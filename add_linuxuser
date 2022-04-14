@@ -1,0 +1,11 @@
+sudo useradd -m postgres
+
+groups
+
+sudo usermod -aG adm postgres
+sudo usermod -aG sudo postgres
+
+groups postgres
+
+sudo passwd postgres
+
