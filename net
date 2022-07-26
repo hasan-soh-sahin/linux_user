@@ -1,0 +1,7 @@
+systemctl status sshd –l
+
+cat /etc/shadow
+
+route
+
+nmcli device
