@@ -1,0 +1,5 @@
+useradd -m new-user
+passwd new-user
+sudo usermod -aG wheel new-user
+sudo usermod -aG adm new-user
+sudo usermod -aG sudo new-user
