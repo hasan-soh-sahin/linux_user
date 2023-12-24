@@ -1,3 +1,6 @@
 root@host# useradd -m new-user
 passwd new-user
 sudo usermod -aG wheel new-user
+
+ubuntu add user 
+sudo adduser <user-is:hasan> sudo
